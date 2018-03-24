@@ -1,0 +1,1 @@
+docker run -p 9870:9870 -h "localhost" -v "$(PWD)/jobs:/jobs" -it menxit/hadoop:3.0
