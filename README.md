@@ -1,12 +1,12 @@
 ## Docker
 Per buildare docker:
 ```
-./script/build.sh
+./scripts/build.sh
 ```
 
 Per avviare docker:
 ```
-./script/hadoop.sh
+./scripts/hadoop.sh
 ```
 
 La macchina host e docker condividono la cartella jobs. Quindi se devi copiare file nell'hdfs conviene prima metterli 
