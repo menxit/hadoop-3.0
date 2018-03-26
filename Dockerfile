@@ -1,6 +1,6 @@
 FROM openjdk:8-jre
 
-ADD http://mirror.nohup.it/apache/hadoop/common/hadoop-3.0.1/hadoop-3.0.1-src.tar.gz /
+ADD ADD http://apache.panu.it/hadoop/common/hadoop-3.0.1/hadoop-3.0.1.tar.gz /
 
 RUN apt-get -y update && \
 	apt-get install -y ssh pdsh software-properties-common && \
